@@ -1,0 +1,535 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.33f1 (ee5a2aa03ab2) revision 15620650'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit Core' Language: 'en' Physical Memory: 16310 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.33f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker4
+-projectPath
+C:/Users/oguzh/OneDrive/Masaüstü/CardGame/CARD GAME
+-logFile
+Logs/AssetImportWorker4.log
+-srvPort
+63416
+Successfully changed project path to: C:/Users/oguzh/OneDrive/Masaüstü/CardGame/CARD GAME
+C:/Users/oguzh/OneDrive/Masaüstü/CardGame/CARD GAME
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [32092] Host "[IP] 192.168.1.61 [Port] 0 [Flags] 2 [Guid] 4233301624 [EditorId] 4233301624 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-O14C83C) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [32092] Host "[IP] 192.168.1.61 [Port] 0 [Flags] 2 [Guid] 4233301624 [EditorId] 4233301624 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-O14C83C) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with {0} workers.
+Refreshing native plugins compatible for Editor in 142.61 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.33f1 (ee5a2aa03ab2)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.33f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/oguzh/OneDrive/Masaüstü/CardGame/CARD GAME/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3060 Ti (ID=0x2486)
+    Vendor:   NVIDIA
+    VRAM:     8024 MB
+    Driver:   32.0.15.5599
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.33f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.33f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.33f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56900
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.33f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.006423 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 139.66 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.809 seconds
+Domain Reload Profiling:
+	ReloadAssembly (810ms)
+		BeginReloadAssembly (126ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (561ms)
+			LoadAssemblies (122ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (127ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (28ms)
+			SetupLoadedEditorAssemblies (355ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (140ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (149ms)
+				ProcessInitializeOnLoadMethodAttributes (58ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.015022 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 128.09 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Completed reload, in  1.614 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1614ms)
+		BeginReloadAssembly (118ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (16ms)
+		EndReloadAssembly (1395ms)
+			LoadAssemblies (101ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (282ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (69ms)
+			SetupLoadedEditorAssemblies (923ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (128ms)
+				BeforeProcessingInitializeOnLoad (122ms)
+				ProcessInitializeOnLoadAttributes (589ms)
+				ProcessInitializeOnLoadMethodAttributes (73ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 1.86 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5697 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 51 unused Assets / (1.9 MB). Loaded Objects now: 6132.
+Memory consumption went from 233.3 MB to 231.4 MB.
+Total: 4.885500 ms (FindLiveObjects: 0.536200 ms CreateObjectMapping: 0.148300 ms MarkObjects: 3.567300 ms  DeleteObjects: 0.632000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:CustomObjectIndexerAttribute: f67f22312cbe972f2da930a377ed3d15 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 360618.435550 seconds.
+  path: Assets/TcgEngine/Sprites/Cards/submerge.png
+  artifactKey: Guid(dc39461cd2e480e4f87b43a21614a9c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/TcgEngine/Sprites/Cards/submerge.png using Guid(dc39461cd2e480e4f87b43a21614a9c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62857a6c85132de790222d45dc85b6d4') in 0.235180 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/TcgEngine/Sprites/FX/smoke2.png
+  artifactKey: Guid(c34a8fd7031386b4eb80c87c5c9bfd27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/TcgEngine/Sprites/FX/smoke2.png using Guid(c34a8fd7031386b4eb80c87c5c9bfd27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60b69b48233e0d4951268ff449e6eba8') in 0.050357 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/TcgEngine/Sprites/CardsBoard/snake_board.png
+  artifactKey: Guid(b636d860c011d0a4aba40414f67dac28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/TcgEngine/Sprites/CardsBoard/snake_board.png using Guid(b636d860c011d0a4aba40414f67dac28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d7f0fc2eb59dc8f7bf4740e1abea697') in 0.103377 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/TownManagement/City Builder Template/Textures/Atlases/ui/_items_thumb/swordman_thumb.png
+  artifactKey: Guid(e3552e1c5d40b4841afd924b3cf8ea74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/TownManagement/City Builder Template/Textures/Atlases/ui/_items_thumb/swordman_thumb.png using Guid(e3552e1c5d40b4841afd924b3cf8ea74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0fac667b9d3053da0fda51f587f7ce8') in 0.035394 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/TcgEngine/Sprites/Cards/trap_fish.png
+  artifactKey: Guid(fe2c7c6b8f46572479435ecb1695dce6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/TcgEngine/Sprites/Cards/trap_fish.png using Guid(fe2c7c6b8f46572479435ecb1695dce6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03133ff6f321f481cb3c5a934e549646') in 0.098160 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/TcgEngine/Sprites/Icons/type_forest_off.png
+  artifactKey: Guid(163abb234e4d627478313d55e75ff876) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/TcgEngine/Sprites/Icons/type_forest_off.png using Guid(163abb234e4d627478313d55e75ff876) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '165c6b4a0f7618223748215170d54fda') in 0.039804 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/TcgEngine/Sprites/Icons/type_water_off.png
+  artifactKey: Guid(f60109508e460414da18c809cce28c8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/TcgEngine/Sprites/Icons/type_water_off.png using Guid(f60109508e460414da18c809cce28c8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72d48b3f06a744abadadabd5cff5a654') in 0.027696 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/TcgEngine/Sprites/Menu/top_bar1.png
+  artifactKey: Guid(48b24e4dea865e44483ae4c818aafb8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/TcgEngine/Sprites/Menu/top_bar1.png using Guid(48b24e4dea865e44483ae4c818aafb8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e8e5cf495daeaa5ff529b3cf9e0091d') in 0.030104 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/TcgEngine/Sprites/FX/turtle_shell.png
+  artifactKey: Guid(5ee57732cd53cef42ba5bc63bcd43a36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/TcgEngine/Sprites/FX/turtle_shell.png using Guid(5ee57732cd53cef42ba5bc63bcd43a36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bf5d496620f35afef0d7d2711362c8e') in 0.043090 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/TcgEngine/Sprites/Cards/trap_mine.png
+  artifactKey: Guid(4e3e4206dec034342a406c3b03d04e7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/TcgEngine/Sprites/Cards/trap_mine.png using Guid(4e3e4206dec034342a406c3b03d04e7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '727a92c9b45fcf11461378dbbf6d5cc6') in 0.127048 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/TcgEngine/Sprites/CardsBoard/turtle_board.png
+  artifactKey: Guid(cb36b13a00e8cf14c9d2fd86eb8b3027) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/TcgEngine/Sprites/CardsBoard/turtle_board.png using Guid(cb36b13a00e8cf14c9d2fd86eb8b3027) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6290ef93a18ae25e1677bc69a5f4866') in 0.097359 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/TcgEngine/Sprites/CardsBoard/wolf_stalker_board.png
+  artifactKey: Guid(d01e947eea657984692e70b772475fd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/TcgEngine/Sprites/CardsBoard/wolf_stalker_board.png using Guid(d01e947eea657984692e70b772475fd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb58d4273016253d5eacc4bd5a8ff893') in 0.094329 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/TownManagement/City Builder Template/Textures/Atlases/ui/window_frame.png
+  artifactKey: Guid(b7e43b52b076941a0a2d5be4cd93a758) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/TownManagement/City Builder Template/Textures/Atlases/ui/window_frame.png using Guid(b7e43b52b076941a0a2d5be4cd93a758) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2702715137bf164c50a944508204ff7') in 0.031774 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/TcgEngine/Sprites/CardsBoard/unicorn_board.png
+  artifactKey: Guid(028bf9dce47277945b4c7d7a3fead0da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/TcgEngine/Sprites/CardsBoard/unicorn_board.png using Guid(028bf9dce47277945b4c7d7a3fead0da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fee9a89f54098b1fe068aa7f7671c1f3') in 0.092453 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/TcgEngine/Sprites/Avatar/wolf.png
+  artifactKey: Guid(829e2e0255297d84a9c068ecd677350d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/TcgEngine/Sprites/Avatar/wolf.png using Guid(829e2e0255297d84a9c068ecd677350d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f821bb4b80e94750aada133478a6dee8') in 0.052205 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/TcgEngine/Sprites/Cards/woodland.png
+  artifactKey: Guid(4552df5a2028c574d807f9c67b42e7bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/TcgEngine/Sprites/Cards/woodland.png using Guid(4552df5a2028c574d807f9c67b42e7bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3f9ca5452426336764d1c1c6a1444bf') in 0.137328 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/TownManagement/City Builder Template/Textures/Characters/SwordMan/walk/TR_original.png
+  artifactKey: Guid(4380d9ea6479f9940a914959632875b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/TownManagement/City Builder Template/Textures/Characters/SwordMan/walk/TR_original.png using Guid(4380d9ea6479f9940a914959632875b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10ab4343e415b0ab2db36bd75e7db4bb') in 0.033277 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/TcgEngine/Sprites/FX/shield_gray.png
+  artifactKey: Guid(c891669082b6d9e46b07bb72197caf18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/TcgEngine/Sprites/FX/shield_gray.png using Guid(c891669082b6d9e46b07bb72197caf18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3db5ce47b7d2d0f6d10f47c67c8d4ec3') in 0.039372 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/TownManagement/City Builder Template/Textures/Atlases/ui/_items_thumb/tree1.png
+  artifactKey: Guid(c81487f5c3f194aaf898da303a78a334) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/TownManagement/City Builder Template/Textures/Atlases/ui/_items_thumb/tree1.png using Guid(c81487f5c3f194aaf898da303a78a334) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e93be88bee7ad55480ed40a3f4ca7400') in 0.030414 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/TownManagement/City Builder Template/Textures/Atlases/ui/_items_thumb/tower.png
+  artifactKey: Guid(11361f6c487624448ab3931a680e82cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/TownManagement/City Builder Template/Textures/Atlases/ui/_items_thumb/tower.png using Guid(11361f6c487624448ab3931a680e82cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73e498a5361176a46e60992b62d36ec6') in 0.029932 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/TownManagement/City Builder Template/Textures/Atlases/ui/_items_thumb/wall.png
+  artifactKey: Guid(71964cee2744c4897959828431d40578) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/TownManagement/City Builder Template/Textures/Atlases/ui/_items_thumb/wall.png using Guid(71964cee2744c4897959828431d40578) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33760a2a1378a5fa1fe01bef2ed3ba9f') in 0.030662 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/TcgEngine/Sprites/FX/water_fx.png
+  artifactKey: Guid(efd3c7f9776cd2f45a01e33e886d7a9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/TcgEngine/Sprites/FX/water_fx.png using Guid(efd3c7f9776cd2f45a01e33e886d7a9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5742ad609dc2eb2b04e20d75e3a7913e') in 0.035798 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/TcgEngine/Sprites/Icons/type_fire.png
+  artifactKey: Guid(683a50fcd851d6d45ac0a67c123f2a04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/TcgEngine/Sprites/Icons/type_fire.png using Guid(683a50fcd851d6d45ac0a67c123f2a04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37041300b83a42a4234896a95d4bd655') in 0.029633 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/TcgEngine/Sprites/Cards/treasure.png
+  artifactKey: Guid(ddde5e5a5e9bb0e4c91bd98f3433870d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/TcgEngine/Sprites/Cards/treasure.png using Guid(ddde5e5a5e9bb0e4c91bd98f3433870d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc09e906b989359c6f585f180a629a75') in 0.147196 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/TownManagement/City Builder Template/Textures/Atlases/ui/_items_thumb/town_center.png
+  artifactKey: Guid(9e5566e678da14dc2b8db939bdec0478) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/TownManagement/City Builder Template/Textures/Atlases/ui/_items_thumb/town_center.png using Guid(9e5566e678da14dc2b8db939bdec0478) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de702588dc42cc9a82e3fbba27fb8421') in 0.032275 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/TcgEngine/Sprites/Cards/spirit_forest.png
+  artifactKey: Guid(74d55144d1e8b274fa6f65cfe5e7cb4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/TcgEngine/Sprites/Cards/spirit_forest.png using Guid(74d55144d1e8b274fa6f65cfe5e7cb4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64cc4d9d25a6b60d37511cb805f6d08b') in 0.128038 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/TcgEngine/Sprites/Avatar/squirrel.png
+  artifactKey: Guid(6b335d3125b5c184882c8ca46fbc17ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/TcgEngine/Sprites/Avatar/squirrel.png using Guid(6b335d3125b5c184882c8ca46fbc17ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69ee2b270f52fc44219d87de716fc853') in 0.048599 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/TcgEngine/Sprites/Cards/tree.png
+  artifactKey: Guid(df4f7d3c3ffc18c42bdecfa498fa53da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/TcgEngine/Sprites/Cards/tree.png using Guid(df4f7d3c3ffc18c42bdecfa498fa53da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58a8175e11b4c03618c7412159c0b15e') in 0.119339 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/TcgEngine/Sprites/CardsBoard/wolf_board.png
+  artifactKey: Guid(5cd105acce20b0f40810123f6fe80756) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/TcgEngine/Sprites/CardsBoard/wolf_board.png using Guid(5cd105acce20b0f40810123f6fe80756) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'beb5e5498375a2a0a841e1320cc43b85') in 0.095499 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/TownManagement/City Builder Template/Textures/Atlases/ui/treasure.png
+  artifactKey: Guid(951dee72d1d1d4fc48951162a3e2eba3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/TownManagement/City Builder Template/Textures/Atlases/ui/treasure.png using Guid(951dee72d1d1d4fc48951162a3e2eba3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27274981fef1b561659b9b873539983b') in 0.029128 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 454.529755 seconds.
+  path: Assets/TcgEngine/Scenes/Game/Solo.unity
+  artifactKey: Guid(5c6c49ba4d9ba764e80c7e3c299ed098) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/TcgEngine/Scenes/Game/Solo.unity using Guid(5c6c49ba4d9ba764e80c7e3c299ed098) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd95736203cce1ad971e0f93dd569a049') in 0.007402 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.318639 seconds.
+  path: Assets/TcgEngine/Scenes/Game/Solo 1.unity
+  artifactKey: Guid(0267c3912ad15dc49afe07b87b37cf0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/TcgEngine/Scenes/Game/Solo 1.unity using Guid(0267c3912ad15dc49afe07b87b37cf0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc989efb2aac1034752a85af653bd136') in 0.007171 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 13.049494 seconds.
+  path: Assets/TcgEngine/Scenes/Game/Solo.unity
+  artifactKey: Guid(5c6c49ba4d9ba764e80c7e3c299ed098) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/TcgEngine/Scenes/Game/Solo.unity using Guid(5c6c49ba4d9ba764e80c7e3c299ed098) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2429a957b09d041aa3cc1a4a5115a277') in 0.007180 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 18.091331 seconds.
+  path: Assets/TcgEngine/Scenes/Game/Solo 1.unity
+  artifactKey: Guid(0267c3912ad15dc49afe07b87b37cf0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/TcgEngine/Scenes/Game/Solo 1.unity using Guid(0267c3912ad15dc49afe07b87b37cf0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d0a024b2a970f1f8109925869eafc3f') in 0.002236 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 7.586525 seconds.
+  path: Assets/TcgEngine/Scenes/Game/Solo 2.unity
+  artifactKey: Guid(11d177cc065a2e84b90bfbe7a983a3f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/TcgEngine/Scenes/Game/Solo 2.unity using Guid(11d177cc065a2e84b90bfbe7a983a3f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a31e64de02152b3edd8991ce042b1e8') in 0.007274 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 4.281858 seconds.
+  path: Assets/TcgEngine/Scenes/Game/Solo 1.unity
+  artifactKey: Guid(11d177cc065a2e84b90bfbe7a983a3f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/TcgEngine/Scenes/Game/Solo 1.unity using Guid(11d177cc065a2e84b90bfbe7a983a3f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aef2f39fc738898a8bf89682816f309c') in 0.002038 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 25.812028 seconds.
+  path: Assets/Animations/Canvas 1.controller
+  artifactKey: Guid(1d6fe50fc7db03443b43c8ccad0b28cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Animations/Canvas 1.controller using Guid(1d6fe50fc7db03443b43c8ccad0b28cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd91fe59ceec047a7549759b4cf69753') in 0.012733 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 399.588506 seconds.
+  path: Assets/Graphics/Rakip.jpg
+  artifactKey: Guid(2fb715e2caa1cf84aa0a0c85525d37cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Graphics/Rakip.jpg using Guid(2fb715e2caa1cf84aa0a0c85525d37cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81aa162569b8ced1ad6d419586e013aa') in 0.077233 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 55.098493 seconds.
+  path: Assets/Graphics/RakipKafa.png
+  artifactKey: Guid(a1014c589d83ab34bab3defa16bef328) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Graphics/RakipKafa.png using Guid(a1014c589d83ab34bab3defa16bef328) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd59c7321700864cb4c88311be5382b7') in 0.035990 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 89.562880 seconds.
+  path: Assets/Graphics/RakipKafa.png
+  artifactKey: Guid(a1014c589d83ab34bab3defa16bef328) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Graphics/RakipKafa.png using Guid(a1014c589d83ab34bab3defa16bef328) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7ef393182663bc7b5431af5b3fc5bf5') in 0.022538 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 1363.004786 seconds.
+  path: Assets/TcgEngine/Scenes/Server
+  artifactKey: Guid(f5d4ddf52fd104541ae2b2538d1a23c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/TcgEngine/Scenes/Server using Guid(f5d4ddf52fd104541ae2b2538d1a23c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e940e7c17ea4a56f3535aa3c463b6694') in 0.008938 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 2.183714 seconds.
+  path: Assets/TcgEngine/Scenes/Game/Solo 1.unity
+  artifactKey: Guid(11d177cc065a2e84b90bfbe7a983a3f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/TcgEngine/Scenes/Game/Solo 1.unity using Guid(11d177cc065a2e84b90bfbe7a983a3f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22a7dc9d4b3c649eac333ad7afdb2695') in 0.002080 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 7.332705 seconds.
+  path: Assets/TcgEngine/Scenes/Game/OrtaSaha VS.unity
+  artifactKey: Guid(11d177cc065a2e84b90bfbe7a983a3f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/TcgEngine/Scenes/Game/OrtaSaha VS.unity using Guid(11d177cc065a2e84b90bfbe7a983a3f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91648c23c648b1cb4b1dbce89fb6cb34') in 0.006733 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 138.981994 seconds.
+  path: Assets/TcgEngine/Scenes/Game/OrtaSaha VS.unity
+  artifactKey: Guid(11d177cc065a2e84b90bfbe7a983a3f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/TcgEngine/Scenes/Game/OrtaSaha VS.unity using Guid(11d177cc065a2e84b90bfbe7a983a3f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80181a25c2840dc0aa0fef2856f6a919') in 0.002212 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 7.270581 seconds.
+  path: Assets/TcgEngine/Scenes/Game/OrtaSaha VS 1.unity
+  artifactKey: Guid(590979dcf5e7f8841a4de85794a36370) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/TcgEngine/Scenes/Game/OrtaSaha VS 1.unity using Guid(590979dcf5e7f8841a4de85794a36370) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69117f573698b5f34a0d556b65be897e') in 0.006875 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 98.273689 seconds.
+  path: Assets/Animations/Canvas 2.controller
+  artifactKey: Guid(59b5ef74148e9314b8b9b1e8b6a24224) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Animations/Canvas 2.controller using Guid(59b5ef74148e9314b8b9b1e8b6a24224) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e62c5abc37cca7926139d65a59e5f42b') in 0.010455 seconds 
+Number of asset objects unloaded after import = 1

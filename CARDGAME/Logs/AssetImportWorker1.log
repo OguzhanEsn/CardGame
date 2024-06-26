@@ -1,0 +1,843 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.33f1 (ee5a2aa03ab2) revision 15620650'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit Core' Language: 'en' Physical Memory: 16310 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.33f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+C:/Users/oguzh/OneDrive/Masaüstü/CardGame/CARD GAME
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+63416
+Successfully changed project path to: C:/Users/oguzh/OneDrive/Masaüstü/CardGame/CARD GAME
+C:/Users/oguzh/OneDrive/Masaüstü/CardGame/CARD GAME
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [7140] Host "[IP] 192.168.1.61 [Port] 0 [Flags] 2 [Guid] 191701690 [EditorId] 191701690 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-O14C83C) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [7140] Host "[IP] 192.168.1.61 [Port] 0 [Flags] 2 [Guid] 191701690 [EditorId] 191701690 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-O14C83C) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with {0} workers.
+Refreshing native plugins compatible for Editor in 141.88 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.33f1 (ee5a2aa03ab2)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.33f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/oguzh/OneDrive/Masaüstü/CardGame/CARD GAME/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3060 Ti (ID=0x2486)
+    Vendor:   NVIDIA
+    VRAM:     8024 MB
+    Driver:   32.0.15.5599
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.33f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.33f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.33f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56904
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.33f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.007257 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 135.58 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.730 seconds
+Domain Reload Profiling:
+	ReloadAssembly (730ms)
+		BeginReloadAssembly (105ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (510ms)
+			LoadAssemblies (101ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (108ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (25ms)
+			SetupLoadedEditorAssemblies (334ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (136ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (139ms)
+				ProcessInitializeOnLoadMethodAttributes (51ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.012693 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 122.48 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Completed reload, in  1.618 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1619ms)
+		BeginReloadAssembly (114ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (17ms)
+		EndReloadAssembly (1404ms)
+			LoadAssemblies (102ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (288ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (66ms)
+			SetupLoadedEditorAssemblies (930ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (123ms)
+				BeforeProcessingInitializeOnLoad (116ms)
+				ProcessInitializeOnLoadAttributes (606ms)
+				ProcessInitializeOnLoadMethodAttributes (73ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 1.27 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5684 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 51 unused Assets / (1.9 MB). Loaded Objects now: 6116.
+Memory consumption went from 230.8 MB to 228.9 MB.
+Total: 3.930200 ms (FindLiveObjects: 0.481100 ms CreateObjectMapping: 0.160200 ms MarkObjects: 2.727600 ms  DeleteObjects: 0.559600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:CustomObjectIndexerAttribute: f67f22312cbe972f2da930a377ed3d15 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 350611.390394 seconds.
+  path: Assets/TownManagement/Graphics
+  artifactKey: Guid(2e104139878d224489cae399c66b1630) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/TownManagement/Graphics using Guid(2e104139878d224489cae399c66b1630) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc1f0309b54feecb380b16c1004789fa') in 0.015552 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.011132 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.13 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Completed reload, in  1.430 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1430ms)
+		BeginReloadAssembly (148ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (37ms)
+		EndReloadAssembly (1181ms)
+			LoadAssemblies (107ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (281ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (47ms)
+			SetupLoadedEditorAssemblies (731ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (87ms)
+				ProcessInitializeOnLoadAttributes (553ms)
+				ProcessInitializeOnLoadMethodAttributes (76ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.56 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5530 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 46 unused Assets / (1.9 MB). Loaded Objects now: 6119.
+Memory consumption went from 219.2 MB to 217.3 MB.
+Total: 3.748400 ms (FindLiveObjects: 0.491600 ms CreateObjectMapping: 0.158600 ms MarkObjects: 2.571600 ms  DeleteObjects: 0.525400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:CustomObjectIndexerAttribute: f67f22312cbe972f2da930a377ed3d15 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.011734 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.13 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Completed reload, in  1.442 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1443ms)
+		BeginReloadAssembly (135ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (32ms)
+		EndReloadAssembly (1215ms)
+			LoadAssemblies (100ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (276ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (44ms)
+			SetupLoadedEditorAssemblies (761ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (94ms)
+				ProcessInitializeOnLoadAttributes (557ms)
+				ProcessInitializeOnLoadMethodAttributes (93ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.20 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5530 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 46 unused Assets / (1.9 MB). Loaded Objects now: 6122.
+Memory consumption went from 219.3 MB to 217.4 MB.
+Total: 3.570000 ms (FindLiveObjects: 0.460000 ms CreateObjectMapping: 0.153400 ms MarkObjects: 2.406200 ms  DeleteObjects: 0.549600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:CustomObjectIndexerAttribute: f67f22312cbe972f2da930a377ed3d15 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.012755 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.09 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Completed reload, in  1.443 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1444ms)
+		BeginReloadAssembly (161ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (38ms)
+		EndReloadAssembly (1189ms)
+			LoadAssemblies (113ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (282ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (57ms)
+			SetupLoadedEditorAssemblies (722ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (93ms)
+				ProcessInitializeOnLoadAttributes (539ms)
+				ProcessInitializeOnLoadMethodAttributes (76ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.16 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5530 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 46 unused Assets / (1.9 MB). Loaded Objects now: 6125.
+Memory consumption went from 219.3 MB to 217.4 MB.
+Total: 4.647900 ms (FindLiveObjects: 0.514600 ms CreateObjectMapping: 0.167100 ms MarkObjects: 3.308100 ms  DeleteObjects: 0.657000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:CustomObjectIndexerAttribute: f67f22312cbe972f2da930a377ed3d15 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 6947.206086 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset
+  artifactKey: Guid(2e498d1c8094910479dc3e1b768306a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset using Guid(2e498d1c8094910479dc3e1b768306a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e76a2415d1672fd01ce35ea750d6c940') in 0.487207 seconds 
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 49.826708 seconds.
+  path: Assets/TownManagement/City Builder Template/Textures/Atlases/ui/add_button.png
+  artifactKey: Guid(f4e2b0030b31541bbb0051ccc06961cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/TownManagement/City Builder Template/Textures/Atlases/ui/add_button.png using Guid(f4e2b0030b31541bbb0051ccc06961cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6faa90adc3f5a49b3d87736aa65674f') in 0.058616 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/TcgEngine/Sprites/Menu/box2.png
+  artifactKey: Guid(e9dd814e46a27604abf504fa6bdf9664) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/TcgEngine/Sprites/Menu/box2.png using Guid(e9dd814e46a27604abf504fa6bdf9664) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f867948ca68bc2e0dd7b357ed26c7b85') in 0.121487 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/TcgEngine/Sprites/FX/card_glow.png
+  artifactKey: Guid(21980979ae6e6ca42b81d4accc116dcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/TcgEngine/Sprites/FX/card_glow.png using Guid(21980979ae6e6ca42b81d4accc116dcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f2e6201594bc2c2824489811cd99184') in 0.079573 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/TcgEngine/Sprites/FX/card_gradient.png
+  artifactKey: Guid(21469e43bf71e3043961e2e26c14c307) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/TcgEngine/Sprites/FX/card_gradient.png using Guid(21469e43bf71e3043961e2e26c14c307) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4470c60a375a59a2c95682d393645e70') in 0.070227 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/TcgEngine/Sprites/Cardbacks/cardback_gold.png
+  artifactKey: Guid(96d8dad709a2729419f19d1d4633a0ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/TcgEngine/Sprites/Cardbacks/cardback_gold.png using Guid(96d8dad709a2729419f19d1d4633a0ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87eb62cfdc5dea4403d45ebdb787de09') in 0.117945 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/TownManagement/City Builder Template/Textures/Atlases/item_ui/arrow.png
+  artifactKey: Guid(bf3de9df96dbe48d4b0f4f4613016b25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/TownManagement/City Builder Template/Textures/Atlases/item_ui/arrow.png using Guid(bf3de9df96dbe48d4b0f4f4613016b25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a214f7a6d9ae1901611e85038f79a2d') in 0.031531 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/TcgEngine/Sprites/Menu/adventure_bg.png
+  artifactKey: Guid(1ca0e8f96f4106a4a8404447828a385d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/TcgEngine/Sprites/Menu/adventure_bg.png using Guid(1ca0e8f96f4106a4a8404447828a385d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1a0787e1b404ee41882db2f53509e3c') in 0.095715 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/TownManagement/City Builder Template/Textures/Atlases/ui/build_button.png
+  artifactKey: Guid(acf0d6cc643424732a82bf4559d90fa0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/TownManagement/City Builder Template/Textures/Atlases/ui/build_button.png using Guid(acf0d6cc643424732a82bf4559d90fa0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfe2e1873d5956faa3b371c6a125d96c') in 0.035174 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/TcgEngine/Sprites/CardsBoard/bay_board.png
+  artifactKey: Guid(3ce01e4ec27c41843928015a24fec838) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/TcgEngine/Sprites/CardsBoard/bay_board.png using Guid(3ce01e4ec27c41843928015a24fec838) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a69ace5adaf5ca84bf5e70b7fe049551') in 0.108012 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/TcgEngine/Sprites/Cardbacks/cardback_silver.png
+  artifactKey: Guid(0e839bd6251bf9a4697b9cb18c1565a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/TcgEngine/Sprites/Cardbacks/cardback_silver.png using Guid(0e839bd6251bf9a4697b9cb18c1565a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b87244abbc1c80d9f75e34cc2d5bf16') in 0.114592 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/TownManagement/City Builder Template/Textures/Atlases/ui/attack_button.png
+  artifactKey: Guid(4c13521785f4a44a39021390342c9914) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/TownManagement/City Builder Template/Textures/Atlases/ui/attack_button.png using Guid(4c13521785f4a44a39021390342c9914) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7888225b8b5bcca2aa46600f2b72ea0c') in 0.036329 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/TcgEngine/Sprites/UI/avatar_killed.png
+  artifactKey: Guid(e2ab1640d50f1f44f8c276b2ee25f2fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/TcgEngine/Sprites/UI/avatar_killed.png using Guid(e2ab1640d50f1f44f8c276b2ee25f2fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcfa359dca4ad60fc9b078ffb8d04e1c') in 0.030489 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/TownManagement/City Builder Template/Textures/Characters/SwordMan/idle/BR_original.png
+  artifactKey: Guid(d79525d4610074d4781717b1d0f1d48d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/TownManagement/City Builder Template/Textures/Characters/SwordMan/idle/BR_original.png using Guid(d79525d4610074d4781717b1d0f1d48d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24225e4165d3c5f03e9db8505dbb1349') in 0.037629 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/TcgEngine/Sprites/CardsBoard/armored_beast_board.png
+  artifactKey: Guid(189c8c57920274f4c84895dde3e00a75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/TcgEngine/Sprites/CardsBoard/armored_beast_board.png using Guid(189c8c57920274f4c84895dde3e00a75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '466e255a6de47f5d3a1e4920d33f8e0d') in 0.089275 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/TownManagement/City Builder Template/Textures/Atlases/ui/bar_no_alpha.png
+  artifactKey: Guid(c5ad0f09616124e0f93874afcaa30f17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/TownManagement/City Builder Template/Textures/Atlases/ui/bar_no_alpha.png using Guid(c5ad0f09616124e0f93874afcaa30f17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a81f02b942714b6a4ea2df0e69e7b92') in 0.025949 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/TcgEngine/Sprites/Cards/bay.png
+  artifactKey: Guid(f4c7de00800580c44af4007866c2c655) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/TcgEngine/Sprites/Cards/bay.png using Guid(f4c7de00800580c44af4007866c2c655) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '057e77b1f140138448b70a7191f078fd') in 0.125951 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/TownManagement/City Builder Template/Textures/Characters/SwordMan/walk/BR_original.png
+  artifactKey: Guid(9266795ed3af13f42b218588c3ba8f65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/TownManagement/City Builder Template/Textures/Characters/SwordMan/walk/BR_original.png using Guid(9266795ed3af13f42b218588c3ba8f65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37597d1775f32fb53706db10d0cf2eff') in 0.029003 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/TownManagement/City Builder Template/Textures/Atlases/ui/blurred_edges_rectangle.png
+  artifactKey: Guid(c980f7b5756114c6e8fb32054d46fb69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/TownManagement/City Builder Template/Textures/Atlases/ui/blurred_edges_rectangle.png using Guid(c980f7b5756114c6e8fb32054d46fb69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55bbdda49453fa1ecc62a27674ba6d2a') in 0.027717 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/TcgEngine/Sprites/UI/button_thin.png
+  artifactKey: Guid(1dfbc2a3fde70964aaa6113e2b12c1d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/TcgEngine/Sprites/UI/button_thin.png using Guid(1dfbc2a3fde70964aaa6113e2b12c1d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '691df950330c765aa3f900b5cb830e0c') in 0.027298 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/TcgEngine/Sprites/UI/avatar_frame1.png
+  artifactKey: Guid(062012baed46d464b9098f9030762be7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/TcgEngine/Sprites/UI/avatar_frame1.png using Guid(062012baed46d464b9098f9030762be7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffc17c09b9e5ddde896f8e256355a19b') in 0.030359 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/TownManagement/City Builder Template/Textures/Atlases/ui/_items_thumb/barrack.png
+  artifactKey: Guid(9b31a37f84da245ab9196afca50193be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/TownManagement/City Builder Template/Textures/Atlases/ui/_items_thumb/barrack.png using Guid(9b31a37f84da245ab9196afca50193be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '314b487c8b34f7c445b21e0e8c38c79f') in 0.035758 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/TcgEngine/Sprites/FX/arrow.png
+  artifactKey: Guid(90cb6830d9704e541a3099bdb6677509) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/TcgEngine/Sprites/FX/arrow.png using Guid(90cb6830d9704e541a3099bdb6677509) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a5114c5d0add7ffd5059b360ec303fc') in 0.030222 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/TcgEngine/Sprites/Cards/armageddon.png
+  artifactKey: Guid(a2c9cd7048d0e2940abbeb619f8fc491) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/TcgEngine/Sprites/Cards/armageddon.png using Guid(a2c9cd7048d0e2940abbeb619f8fc491) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70e76192eed1ae886d9fdc99ca2d2494') in 0.111656 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/TcgEngine/Sprites/UI/button_accept.png
+  artifactKey: Guid(7e76881c5608343439bb40fc753effb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/TcgEngine/Sprites/UI/button_accept.png using Guid(7e76881c5608343439bb40fc753effb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa9db63d242e1cdcc419ab4e74eb5334') in 0.025859 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/TcgEngine/Sprites/Cards/aerial_strike.png
+  artifactKey: Guid(7f85ee0ad8b42e242b2d12985449c0e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/TcgEngine/Sprites/Cards/aerial_strike.png using Guid(7f85ee0ad8b42e242b2d12985449c0e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa83795b52b1de4bd7b5c4ebb2b54128') in 0.107371 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/TcgEngine/Sprites/UI/arena_time_icon.png
+  artifactKey: Guid(655c6ad1a23b7a2438eafe0630d7042d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/TcgEngine/Sprites/UI/arena_time_icon.png using Guid(655c6ad1a23b7a2438eafe0630d7042d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e26605d1520de7ed65e110a2b6ba118b') in 0.024912 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/TcgEngine/Sprites/Menu/box1.png
+  artifactKey: Guid(56759fcc1e5f9eb43b22ea46a357269b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/TcgEngine/Sprites/Menu/box1.png using Guid(56759fcc1e5f9eb43b22ea46a357269b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55faec3e5a9c6e1d4b8268301635a5ea') in 0.084140 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/TownManagement/City Builder Template/Textures/Atlases/ui/cancel.png
+  artifactKey: Guid(65c5c048fe9c74819a93f24ba119b2ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/TownManagement/City Builder Template/Textures/Atlases/ui/cancel.png using Guid(65c5c048fe9c74819a93f24ba119b2ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '919b0d30d7642f43d812783810798d62') in 0.027692 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/TownManagement/City Builder Template/Textures/Atlases/ui/alpha.png
+  artifactKey: Guid(984e2a441075044449f254da28e06dd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/TownManagement/City Builder Template/Textures/Atlases/ui/alpha.png using Guid(984e2a441075044449f254da28e06dd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88f67ef68e0a9e3efe568da316e21ecf') in 0.027749 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/TcgEngine/Sprites/UI/avatar_frame2.png
+  artifactKey: Guid(f5accdfc40b91df42b3d36b0ad6d56ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/TcgEngine/Sprites/UI/avatar_frame2.png using Guid(f5accdfc40b91df42b3d36b0ad6d56ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f99b0dd18a2044dbb102c6e651bcd12') in 0.033499 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/TcgEngine/Sprites/CardsBoard/bear_board.png
+  artifactKey: Guid(54b4e7c19097a8341a5b441a704f9176) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/TcgEngine/Sprites/CardsBoard/bear_board.png using Guid(54b4e7c19097a8341a5b441a704f9176) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '207d4fc4201a64c230c5750274a7ea43') in 0.080967 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/TownManagement/City Builder Template/Textures/Atlases/ui/button_normal.png
+  artifactKey: Guid(b22b6f1656f394abab25b573ff656bdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/TownManagement/City Builder Template/Textures/Atlases/ui/button_normal.png using Guid(b22b6f1656f394abab25b573ff656bdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8278027d7372c7cd7432be18879fc095') in 0.029601 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/TcgEngine/Sprites/UI/button_reject.png
+  artifactKey: Guid(bedb8bc7fa0a1fd448a8cdc1f0597146) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/TcgEngine/Sprites/UI/button_reject.png using Guid(bedb8bc7fa0a1fd448a8cdc1f0597146) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b89c7469368a08ab3c738ace7e71e3f') in 0.023738 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/TcgEngine/Sprites/FX/CircleFade.png
+  artifactKey: Guid(a9fa69ec2123882409de98a1d017092a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/TcgEngine/Sprites/FX/CircleFade.png using Guid(a9fa69ec2123882409de98a1d017092a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7148d959706710999c6aa20c4a400288') in 0.030246 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/TcgEngine/Sprites/UI/arrow.png
+  artifactKey: Guid(73da853f5f1e50349a0f53148d780bd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/TcgEngine/Sprites/UI/arrow.png using Guid(73da853f5f1e50349a0f53148d780bd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33a1cc28b9fac4bcf9cb0ea2e4f3dc24') in 0.029468 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/TcgEngine/Sprites/UI/board_slot_long.png
+  artifactKey: Guid(0ebe275829747144e9282d4707eb9875) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/TcgEngine/Sprites/UI/board_slot_long.png using Guid(0ebe275829747144e9282d4707eb9875) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84bc55ca78add015d83b2e2436235868') in 0.066910 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/TcgEngine/Sprites/Cards/blank_red.png
+  artifactKey: Guid(91070a77695298f4ca21bbd1e0b45787) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/TcgEngine/Sprites/Cards/blank_red.png using Guid(91070a77695298f4ca21bbd1e0b45787) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32facfc83dfa81093ae54066dcc02711') in 0.070061 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/TcgEngine/Sprites/Cards/cave.png
+  artifactKey: Guid(c0329b5e4485df6409690de7fb5a8513) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/TcgEngine/Sprites/Cards/cave.png using Guid(c0329b5e4485df6409690de7fb5a8513) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7358ed7110d8a55f5799683ed58a9dca') in 0.120756 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 3.507658 seconds.
+  path: Assets/TcgEngine/Sprites/UI/dice_icon.png
+  artifactKey: Guid(f57670bc37697734391fb775ee36c867) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/TcgEngine/Sprites/UI/dice_icon.png using Guid(f57670bc37697734391fb775ee36c867) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29990acc2e5f0520237de345c1b41dc8') in 0.024627 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/TcgEngine/Sprites/UI/loading.png
+  artifactKey: Guid(b0bdd54f0e00b08479d742428077b21c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/TcgEngine/Sprites/UI/loading.png using Guid(b0bdd54f0e00b08479d742428077b21c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dab57d98896b0225531fac082a34c4d4') in 0.031448 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/TcgEngine/Sprites/UI/scroll_fill.png
+  artifactKey: Guid(61d70dd1c4f47934895a5f6d0657e50b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/TcgEngine/Sprites/UI/scroll_fill.png using Guid(61d70dd1c4f47934895a5f6d0657e50b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db24d04896d7858d94dc23ff78bc46a6') in 0.030150 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/TcgEngine/Sprites/UI/frame_board_silver.png
+  artifactKey: Guid(64bccc4111cfe6845b6807b6dfb8fcd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/TcgEngine/Sprites/UI/frame_board_silver.png using Guid(64bccc4111cfe6845b6807b6dfb8fcd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6a487758b39c8e8ab6f81313f174314') in 0.060905 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/TcgEngine/Sprites/UI/frame_circle_silver.png
+  artifactKey: Guid(ca5f8de4d5396d7488701dc95883e125) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/TcgEngine/Sprites/UI/frame_circle_silver.png using Guid(ca5f8de4d5396d7488701dc95883e125) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd661b2f5094d5a078a64d9db37ad1f5e') in 0.046872 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/TcgEngine/Sprites/UI/friend_offline.png
+  artifactKey: Guid(a88013c35a395d24f8e8dbbe6921d3c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/TcgEngine/Sprites/UI/friend_offline.png using Guid(a88013c35a395d24f8e8dbbe6921d3c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f82e1c3fd0dff2b0218e29f1f82d888a') in 0.028552 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/TcgEngine/Sprites/UI/ui_frame.png
+  artifactKey: Guid(9483379c74990114394970c249bf2050) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/TcgEngine/Sprites/UI/ui_frame.png using Guid(9483379c74990114394970c249bf2050) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7564302ef1d79de199f6aae12667d65') in 0.067675 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/TcgEngine/Sprites/UI/icon_accept.png
+  artifactKey: Guid(c958e98264b86b249afaf8f6093eaa33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/TcgEngine/Sprites/UI/icon_accept.png using Guid(c958e98264b86b249afaf8f6093eaa33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92ace95b3956c6eeb32af9dc0c55542c') in 0.029248 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/TcgEngine/Sprites/UI/red_box.png
+  artifactKey: Guid(9f8cf5d88a0137f4fbad571505a768ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/TcgEngine/Sprites/UI/red_box.png using Guid(9f8cf5d88a0137f4fbad571505a768ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '632d3371c548e7a0d5e3db947d746190') in 0.039461 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/TcgEngine/Sprites/UI/frame_board_gold.png
+  artifactKey: Guid(8ceb9655eb731ce4eb48d9977613844d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/TcgEngine/Sprites/UI/frame_board_gold.png using Guid(8ceb9655eb731ce4eb48d9977613844d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '278ceaf7938e2c12b195f46598594d97') in 0.062275 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/TcgEngine/Sprites/UI/toggle_box.png
+  artifactKey: Guid(ebb1704252615624a84e8f6baafc1743) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/TcgEngine/Sprites/UI/toggle_box.png using Guid(ebb1704252615624a84e8f6baafc1743) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '857020e7579ce19e0d3ae84beb75d7b8') in 0.031672 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/TcgEngine/Sprites/UI/gradient.png
+  artifactKey: Guid(eda9a1e4a2309e744b0f50fa0fa2542d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/TcgEngine/Sprites/UI/gradient.png using Guid(eda9a1e4a2309e744b0f50fa0fa2542d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93bf85104763b6528ee7ce2f4f9a488b') in 0.042289 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/TcgEngine/Sprites/UI/quantity_bar.png
+  artifactKey: Guid(bff18dc1e9d226747ad07489c30b3bc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/TcgEngine/Sprites/UI/quantity_bar.png using Guid(bff18dc1e9d226747ad07489c30b3bc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58b62aef9f11d923f77f124d83055bb2') in 0.035061 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/TcgEngine/Sprites/UI/icon_reject.png
+  artifactKey: Guid(792520428c9abf242a940a1ee0229d04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/TcgEngine/Sprites/UI/icon_reject.png using Guid(792520428c9abf242a940a1ee0229d04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b3684b3dd04337aafd163b8bb975bdf') in 0.025910 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/TcgEngine/Sprites/UI/red_box2.png
+  artifactKey: Guid(dd6a24eeb1121b749a92e5cc997a91bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/TcgEngine/Sprites/UI/red_box2.png using Guid(dd6a24eeb1121b749a92e5cc997a91bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64642fa6be8783f17f1580c3b0390bcf') in 0.035215 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/TcgEngine/Sprites/UI/mana_empty.png
+  artifactKey: Guid(74cc1786d4cd2fc44865297475ce72b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/TcgEngine/Sprites/UI/mana_empty.png using Guid(74cc1786d4cd2fc44865297475ce72b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8afe1f0e6ff6063a52e5b8e52ee588c') in 0.023494 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/TcgEngine/Sprites/UI/win_text.png
+  artifactKey: Guid(d60fc161d9aa24d4993c7bda642426dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/TcgEngine/Sprites/UI/win_text.png using Guid(d60fc161d9aa24d4993c7bda642426dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8dd7fae4f0e523115369da011e51fa9b') in 0.037297 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/TcgEngine/Sprites/UI/scroll_bg.png
+  artifactKey: Guid(988b26cc833384845b0b28ed8ecdce58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/TcgEngine/Sprites/UI/scroll_bg.png using Guid(988b26cc833384845b0b28ed8ecdce58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac5605fd714946a9c0eca110d58b5c77') in 0.023897 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/TcgEngine/Sprites/UI/win_vs.png
+  artifactKey: Guid(e51a87d7a84059347a9eb4d241a64171) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/TcgEngine/Sprites/UI/win_vs.png using Guid(e51a87d7a84059347a9eb4d241a64171) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26edc47eb9a5cccafa7c22e0a8298f7d') in 0.028167 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/TcgEngine/Sprites/UI/sword.png
+  artifactKey: Guid(af2a7bffef6ab554fbe2c69eb407b65c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/TcgEngine/Sprites/UI/sword.png using Guid(af2a7bffef6ab554fbe2c69eb407b65c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a6e404d3342d376d245aa90bea80ad2') in 0.038199 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/TcgEngine/Sprites/UI/level_box.png
+  artifactKey: Guid(c222d16d026308b4cb4e9a8d1f22bf79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/TcgEngine/Sprites/UI/level_box.png using Guid(c222d16d026308b4cb4e9a8d1f22bf79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '072e28c9dbdee6e7c15941d46015cbb3') in 0.030999 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/TcgEngine/Sprites/UI/input_field_white.png
+  artifactKey: Guid(eac0bbad8e067d04b8422e6cc2c2fcb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/TcgEngine/Sprites/UI/input_field_white.png using Guid(eac0bbad8e067d04b8422e6cc2c2fcb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7d0008ba795712aa195aa48817d80b9') in 0.028753 seconds 
+Number of asset objects unloaded after import = 3
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
