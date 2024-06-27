@@ -10,7 +10,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{49D19DF7-1BE9-9EA6-49CD-BC988723ED17}</ProjectGuid>
+    <ProjectGuid>{511127D2-D587-15C9-4AC2-953A162E6B3A}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -334,6 +334,8 @@
     <Compile Include="Assets\TcgEngine\Scripts\FX\AnimFX.cs" />
     <Compile Include="Assets\TcgEngine\Scripts\GameClient\OpponentHand.cs" />
     <Compile Include="Assets\TcgEngine\Scripts\UI\TraitUI.cs" />
+    <Compile Include="Assets\TrainingGrounds.cs" />
+    <Compile Include="Assets\Kart.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TownManagement\City Builder Template\readme.txt" />

@@ -163,8 +163,8 @@ public class BaseItemScript : MonoBehaviour
 	{
 		this.Renderer.Refresh();
 
-		if (SceneManagerTM.instance.gameMode == Common.GameMode.NORMAL && this.itemData.configuration.productionRate > 0)
-			this.Production.UpdateProduction();
+		//if (SceneManagerTM.instance.gameMode == Common.GameMode.NORMAL && this.itemData.configuration.productionRate > 0)
+			//this.Production.UpdateProduction();
 	}
 
 	/// <summary>
